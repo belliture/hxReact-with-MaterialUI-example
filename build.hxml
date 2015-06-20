@@ -1,0 +1,4 @@
+-cp src
+-main Main
+-lib hxReact hxReact-material-ui
+-js output/app_core.js

@@ -1,0 +1,23 @@
+{
+  "name": "material",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "material": "app.js"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "material-ui": "^0.9.1",
+    "react-tap-event-plugin": "^0.1.7"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "haxe build.hxml && node_modules/.bin/browserify output/app_core.js -o bin/app.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
